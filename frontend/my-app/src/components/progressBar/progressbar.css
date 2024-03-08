@@ -1,0 +1,45 @@
+.progressBar {
+    font-weight: 900;
+    font-size: 1.5vh;
+    width: fit-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.level {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    background-color: violet;
+    border-radius: 100%;
+    margin-right: 0.5vw;
+    width: 3vh;
+    height: 3vh;
+}
+
+.bar {
+    width: 20vw;
+    border-radius: 5em;
+    border: 1px solid black;
+    height: 3vh;
+}
+
+.progress {
+    height: 100%;
+    background-color: violet;
+    display: flex;
+    align-items: center;
+    float: left;
+    border-radius: 5em;
+    border-right: 2px solid black;
+}
+
+.maxXp{
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    float: right;
+    height: 100%;
+}

@@ -1,0 +1,10 @@
+.editContainer{
+    background-color: lightcoral; 
+    width: 100%;
+    height: 94vh;
+    box-sizing: border-box;
+    padding-top: 2vh;
+    padding-right: 2vw;
+    padding-left: 2vw;
+    overflow: hidden;
+}

@@ -1,0 +1,17 @@
+.navBar{
+    width: 100%;
+    height: 6vh;
+    box-sizing: border-box;
+    background-color: lightgrey;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 3px solid darkgrey;
+}
+
+.appNameLabel{
+    font-size: 2.5vh;
+    font-weight: bolder;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}

@@ -1,0 +1,9 @@
+.tasks{
+    width: 35%;
+    float: left;
+  }
+  
+  .calendar{
+    width: 65%;
+    float: right;
+  }
