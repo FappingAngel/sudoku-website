@@ -11,7 +11,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 1px solid black;
+    border: 1px solid #21005D;
     background-color: violet;
     border-radius: 100%;
     margin-right: 0.5vw;
@@ -22,7 +22,7 @@
 .bar {
     width: 20vw;
     border-radius: 5em;
-    border: 1px solid black;
+    border: 1px solid #21005D;
     height: 3vh;
 }
 
@@ -33,7 +33,7 @@
     align-items: center;
     float: left;
     border-radius: 5em;
-    border-right: 2px solid black;
+    border-right: 2px solid #21005D;
 }
 
 .maxXp{

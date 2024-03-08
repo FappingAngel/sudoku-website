@@ -1,5 +1,5 @@
 import React, {useEffect} from "react";
-import { ReactComponent as AppLogo } from '../../resources/Logo.svg';
+import { ReactComponent as AppLogo } from '../../resources/unicorn.svg';
 import './Login.css';
 import { METHODS } from "http";
 
@@ -35,7 +35,7 @@ export default function LoginScreen() {
                 <div className="headerBar">
                     <div className="appName">                    
                         <AppLogo style={{ marginLeft: "10px", height: "5vh", width: "5vh" }} />
-                        <p className="appNameLabel">Taskquest ToDo-App</p>
+                        <p className="appNameLabel">Sudoku</p>
                     </div>
                     <div className= "divisor"/>
                     <h1 className="logInHeader">Log-In</h1>

@@ -1,20 +1,14 @@
-import DateCalendar from "../../components/calendar/calendar";
 import NavBar from "../../components/navbar/navbar";
-import ScrollableTaskList from "../../components/taskList/taskList";
 import './Home.css'
+import Sudokufield from "../../components/sudoku-field/sudokufield";
 
 
-export default function HomeScreen(){
-return (
-    <div className="App">
-      <span><NavBar /></span>
-      <div className="tasks">
-        <ScrollableTaskList />
-      </div>
-      <div className="calendar">
-        <DateCalendar/>
-      </div>
-    </div>
+export default function HomeScreen() {
+    return (
+        <div style={{height: "100vh"}}>
+            <div style={{height:"6vh"}}><NavBar/></div>
+            <div style={{height:"94vh"}}><Sudokufield></Sudokufield></div>
+        </div>
 
-  );
+    );
 };

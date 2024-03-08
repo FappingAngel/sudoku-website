@@ -1,7 +1,7 @@
 import React from "react";
 import "./levelUp.css"
 import ProgressBar from "../progressBar/progressbar";
-import { PROGRESS } from "../progress";
+import { PROGRESS } from "../../models/progress";
 
 
 export function LevelUp(){
